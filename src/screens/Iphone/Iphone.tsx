@@ -243,7 +243,7 @@ export const Iphone = (): JSX.Element => {
           </section>
 
           <section className="relative w-full h-[40vh] md:h-[60vh] bg-cover bg-center bg-fixed" style={{
-            backgroundImage: 'url("photo1.jpg")',
+            backgroundImage: 'url("public/photo1.jpg")', 
             backgroundPosition: 'center'
           }}>
             <div className="absolute inset-0 bg-black/60"></div>
@@ -291,7 +291,7 @@ export const Iphone = (): JSX.Element => {
           </section>
 
           <section className="relative w-full h-[40vh] md:h-[60vh] bg-cover bg-center bg-fixed" style={{
-            backgroundImage: 'url("photo2.jpg")',
+            backgroundImage: 'url("public/photo2.jpg")',
             backgroundPosition: 'center 30%'
           }}>
             <div className="absolute inset-0 bg-black/60"></div>
